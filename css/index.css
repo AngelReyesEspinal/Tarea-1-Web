@@ -1,0 +1,72 @@
+/* ESTILO GENERAL */
+
+    body{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main{
+        flex: 1 0 auto;
+    }
+
+    .marginArriba{
+        margin-top: 40px;
+    }
+
+    .margenIzquierdo{
+        margin-left: 10px !important;
+    }
+    
+/* FIN ESTILO GENERAL */
+
+/* ESTILOS DE LOS INPUTS */
+
+    .negrita{
+        font-weight: bold !important;
+    }
+
+    .input-field input[type=text]:focus + label{
+        color: #0D47A1 !important;
+    }
+
+    .input-field input[type=text]:focus{
+        border-bottom: 1px solid #0D47A1!important;
+        box-shadow: 0 1px 0 0 #0D47A1!important;
+    }
+
+    .input-field .prefix.active{
+        color: #0D47A1!important;
+    }
+   
+/* TEXTAREA*/
+
+    textarea.materialize-textarea:focus + label{
+        color: #0D47A1 !important;
+    }
+
+    textarea.materialize-textarea:focus{
+        border-bottom: 1px solid #0D47A1!important;
+        box-shadow: 0 1px 0 0 #0D47A1!important;
+    }
+
+/* FIN ESTILOS DE LOS INPUTS */
+
+/* ESTILOS VER*/
+
+    .tituloCarta{
+        font-size: 45px !important;
+        text-shadow: 1px 1px 1px black!important;
+    }
+
+    .subtitulos{
+        margin-left: 5% !important;
+        font-size: 25px !important;
+        text-shadow: 1px 1px 1px black!important;
+    }
+
+    .respuestas{
+        margin-left: 15% !important;
+        font-size: 25px !important;
+        text-shadow: 1px 1px 1px black!important;
+    }
